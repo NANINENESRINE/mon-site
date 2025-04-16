@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+/* body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+} */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+@keyframes example {
+    from {transform: skew(10deg,0deg);}
+    to {transform: skew(-10deg,0deg);}
+}
+
+@keyframes ani {
+    to{
+        transform: rotate(360deg);
+    }
+}
+.spiner{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 50px solid rgb(187, 179, 179);
+    border-top: 50px solid black;
+    margin-left: 100px;
+    animation: ani 2.5s linear infinite;
+}
+p{
+    color: #ee3939;
+    font-weight: bold;
+    font-size: 200px;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left: 100px;
+    text-shadow: 
+    0.025em 0.025em 0 yellow,
+    0.050em 0.050em 0 blue,
+    0.075em 0.075em 0 red,
+    0.1em 0.1em 0 black;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+
+}
+
+/* caption{ 
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 2px 0px 5px rgba(221, 221, 221, 0.952) inset, -2px 0px 5px rgba(221, 221, 221, 0.952) inset;    /* text-shadow: 5px 5px 5px black;
+}
+
+table, th, td {
+    border: 1px solid rgba(221, 221, 221, 0.952) ;
+    border-collapse: collapse;
+}
+
+td,tr,th{
+    padding: 20px;
+    width: 130px;
+    text-align: left;
+}
+th{
+    font-size: small;
+    color: black;
+}
+
+thead {
+    background-color: rgba(221, 221, 221, 0.952);
+}*/
